@@ -1,0 +1,147 @@
+.timelinda,
+.timelinda *,
+.timelinda ::before,
+.timelinda ::after {
+	box-sizing: border-box;
+}
+
+.timelinda {
+	clear: both;
+	margin: 30px auto;
+	position: relative;
+	width: 80%;
+}
+
+.timelinda::before,
+.timelinda::after {
+	content: '';
+}
+
+.timelinda::before {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 2px;
+	z-index: 1;
+}
+
+.timelinda::after {
+	clear: both;
+	display: table;
+}
+
+@media screen and (max-width: 768px) {
+	.timelinda::before {
+		left: 8px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.timelinda::before {
+		left: 50%;
+		margin-left: -1px;
+	}
+}
+
+.timelinda p:empty {
+	display: none;
+}
+
+.timelinda__event {
+	clear: both;
+	margin-top: 30px;
+	padding-left: 24px;
+	position: relative;
+	text-align: left;
+	z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+	.timelinda__event {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.timelinda__event {
+		float: right;
+		width: 50%;
+	}
+}
+
+.timelinda__event:first-child {
+	margin-top: 0;
+}
+
+.timelinda__event::after {
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	content: '';
+	height: 16px;
+	position: absolute;
+	top: 0;
+	width: 16px;
+	z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+	.timelinda__event::after {
+		left: 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.timelinda__event::after {
+		left: -8px;
+	}
+	
+	.timelinda__event:nth-child(2n) {
+		float: left;
+		padding: 0 24px 0 0;
+		text-align: right;
+	}
+
+	.timelinda__event:nth-child(2n)::after {
+		left: auto;
+		right: -8px;
+	}
+
+	.timelinda .timelinda__event--right {
+		float: right;
+		padding: 0 0 0 24px;
+		text-align: left;
+	}
+
+	.timelinda .timelinda__event--right::after {
+		left: -8px;
+		right: auto;
+	}
+
+	.timelinda .timelinda__event--left {
+		float: left;
+		padding: 0 24px 0 0;
+		text-align: right;
+	}
+
+	.timelinda .timelinda__event--left::after {
+		left: auto;
+		right: -8px;
+	}
+}
+
+.timelinda__event__title,
+.timelinda__event__subtitle,
+.timelinda__event__text {
+	margin-top: -3.5px;
+}
+
+.timelinda__event__title,
+.timelinda__event__subtitle {
+	margin-bottom: 1rem;
+}
+
+.timelinda__event__title {
+	font-weight: bold;
+}

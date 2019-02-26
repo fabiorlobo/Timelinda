@@ -1,0 +1,172 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Timelinda\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2019-02-26 11:35-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Janio Sarmento, Fabio Lobo\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/sidebar.php:15
+msgid "About Timelinda"
+msgstr "Sobre a Timelinda"
+
+#: admin/sidebar.php:18
+msgid "Timelinda was developed by"
+msgstr "Timelinda foi desenvolvida por"
+
+#: admin/sidebar.php:18
+msgid "and"
+msgstr "e"
+
+#: admin/sidebar.php:19
+msgid "If you have seen any bugs,"
+msgstr "Se você viu algum bug,"
+
+#: admin/sidebar.php:19
+msgid "please let us know!"
+msgstr "nos avise!"
+
+#: admin/sidebar.php:21
+msgid "Read more"
+msgstr "Leia mais"
+
+#: admin/sidebar.php:23
+msgid "Looking for hosting?"
+msgstr "Procurando por hospedagem?"
+
+#: timelinda.php:40 timelinda.php:41 timelinda.php:59
+msgid "Timelinda"
+msgstr ""
+
+#: timelinda.php:64
+msgid "How it works?"
+msgstr "Como funciona?"
+
+#: timelinda.php:66
+msgid ""
+"Use [timeline][/timeline] with [timeline_event title=\"text\" subtitile="
+"\"text\" align=\"right/left\"]text[/timeline_event] within."
+msgstr ""
+"Use [timeline][/timeline] com [timeline_event title=\"text\" subtitile=\"text"
+"\" align=\"right/left\"]text[/timeline_event] dentro."
+
+#: timelinda.php:67
+msgid "Examples:"
+msgstr "Exemplos:"
+
+#: timelinda.php:70
+msgid "Your title"
+msgstr "Seu título"
+
+#: timelinda.php:70
+msgid "Your subtitile"
+msgstr "Seu subtítulo"
+
+#: timelinda.php:71
+msgid "Your text here!"
+msgstr "Seu texto aqui!"
+
+#: timelinda.php:75
+msgid "Another title"
+msgstr "Outro título"
+
+#: timelinda.php:75
+msgid "Another subtitile"
+msgstr "Outro subtítulo"
+
+#: timelinda.php:75
+msgid "Your second text here!"
+msgstr "Seu segundo texto aqui!"
+
+#: timelinda.php:78
+msgid "Just a text now"
+msgstr "Só um texto agora"
+
+#: timelinda.php:80
+msgid "Just a title now"
+msgstr "Só um título agora"
+
+#: timelinda.php:81
+msgid "Ok, I want this to be left aligned."
+msgstr "Ok, eu quero que isso seja alinhado à esquerda."
+
+#: timelinda.php:83
+msgid ""
+"As you can see above, the \"align\" property is optional – Also \"title\" "
+"and \"subtitle\" if you only want to use text."
+msgstr ""
+"Como você pode ver acima, a propriedade \"align\" é opcional – Assim como "
+"\"title\" e \"subtitle\" se você só quiser utilizar texto."
+
+#: timelinda.php:90 timelinda.php:318
+msgid "Settings"
+msgstr "Opções"
+
+#: timelinda.php:122
+msgid "Text size"
+msgstr "Tamanho do texto"
+
+#: timelinda.php:123
+msgid "Line height"
+msgstr "Altura da linha (line-height)"
+
+#: timelinda.php:124
+msgid "Title size"
+msgstr "Tamanho do título"
+
+#: timelinda.php:125
+msgid "Subtitle size"
+msgstr "Tamanho do subtítulo"
+
+#: timelinda.php:127
+msgid "Timelinda color"
+msgstr "Cor da Timelinda"
+
+#: timelinda.php:128
+msgid "Border color"
+msgstr "Cor da borda"
+
+#: timelinda.php:129
+msgid "Title color"
+msgstr "Cor do título"
+
+#: timelinda.php:130
+msgid "Subtitle color"
+msgstr "Cor do subtítulo"
+
+#: timelinda.php:131
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: timelinda.php:150
+msgid "Default: 14px"
+msgstr "Padrão: 14px"
+
+#: timelinda.php:156
+msgid "Default: 1rem"
+msgstr "Padrão: 1rem"
+
+#: timelinda.php:162
+msgid "Default: 1.5rem"
+msgstr "Padrão: 1.5rem"
+
+#: timelinda.php:168
+msgid "Default: 1.25rem"
+msgstr "Padrão: 1.25rem"
