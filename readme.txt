@@ -14,13 +14,13 @@ Extremely Lightweigth Pure CSS Responsive Vertical Timeline
 
 Create a simple – and responsive – timeline with shortcodes!
 
-```[timeline]
+`[timeline]
 
   [timeline_event title="Your title" subtitle="Your subtitile"]
     Your text here!
   [/timeline_event]
 
-[/timeline]```
+[/timeline]`
 
 Customize colors and text sizes and... done!
 
