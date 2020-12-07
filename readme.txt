@@ -2,8 +2,8 @@
 Contributors: fabiolobo, janiosarmento
 Tags: timeline, shortcode
 Requires at least: 4.5
-Tested up to: 5.1.0
-Stable tag: 1.0.0
+Tested up to: 5.5.3
+Stable tag: 1.0.1
 Requires PHP: 5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -47,6 +47,10 @@ Check the plugin page (Settings->Timelinda) for examples and configuration.
 
 == Changelog ==
 
+= 1.0.1 =
+
+Fix "Settings" link
+
 = 1.0.0 =
 
 Initial release
@@ -60,6 +64,10 @@ Improvements
 Initial release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+
+Fix "Settings" link
 
 = 1.0.0 =
 

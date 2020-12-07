@@ -3,7 +3,7 @@
 	Plugin Name: Timelinda
 	Plugin URI: https://janio.sarmento.org/
 	Description: Extremely Lightweigth Pure CSS Responsive Vertical Timeline
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: Janio Sarmento
 	Author URI: https://janio.sarmento.org
 	Author2: Fabio Lobo
@@ -315,7 +315,7 @@ add_filter( 'plugin_row_meta', 'k_timelinda_custom_row_meta', 10, 2 );
 
 function k_timelinda_plugin_links( $links ) {
 	$links = array_merge( array(
-		'<a href="' . esc_url( admin_url( '/options-general.php' ) ) . '?page=timelinda">' . __( 'Settings', 'k' ) . '</a>'
+		'<a href="' . esc_url( admin_url( '/options-general.php' ) ) . '?page=k_timelinda">' . __( 'Settings', 'k' ) . '</a>'
 	), $links );
 	return $links;
 }
