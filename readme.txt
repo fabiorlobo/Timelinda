@@ -2,7 +2,7 @@
 Contributors: fabiolobo, janiosarmento
 Tags: timeline, shortcode
 Requires at least: 4.5
-Tested up to: 5.5.3
+Tested up to: 5.9.3
 Stable tag: 1.0.1
 Requires PHP: 5.2
 License: GPLv2 or later
